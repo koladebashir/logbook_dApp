@@ -16,7 +16,7 @@ function App() {
     const initFunction = async () => {
       const isSignedIn = await wallet.startUp();
       const messages = await getLast10Messages();
-
+      
       setIsSignedIn(isSignedIn);
       setMessages(messages.reverse());
     }
@@ -58,7 +58,7 @@ function App() {
     <main>
       <table>
         <tr>
-          <td><h1>📖 OWT Message Logbook</h1></td>
+          <td><h1>📖 NEAR Guest Book</h1></td>
           <td>{isSignedIn
             ? <button onClick={signOut}>Log out</button>
             : <button onClick={signIn}>Log in</button>

@@ -4,7 +4,7 @@ export default function Form({ onSubmit, currentAccountId }) {
   return (
     <form onSubmit={onSubmit}>
       <fieldset id="fieldset">
-        <p>Drop a message for the logbook, { currentAccountId }!</p>
+        <p>Sign the guest book, { currentAccountId }!</p>
         <p className="highlight">
           <label htmlFor="message">Message:</label>
           <input
@@ -27,7 +27,7 @@ export default function Form({ onSubmit, currentAccountId }) {
           <span title="NEAR Tokens">Ⓝ</span>
         </p>
         <button type="submit">
-          Send Log
+          Sign
         </button>
       </fieldset>
     </form>
