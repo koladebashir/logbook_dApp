@@ -9,7 +9,7 @@ pub struct PostedMessage {
     pub premium: bool,
     pub sender: AccountId,
     pub text: String,
-}`
+}
 
 // Define the contract structure
 #[near(contract_state)]

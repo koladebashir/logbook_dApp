@@ -1,0 +1,33 @@
+.text-start > span {
+    color: #117A65
+}
+
+.badge.bg-success > span {
+    font-weight: normal !important
+}
+
+.row {
+    padding-top: 0px;
+    margin-top: 20px
+}
+
+.btn.btn-primary {
+    background: var(--bs-gray-800)
+}
+
+.dropend {
+    margin: 12.5px 0px;
+    background: var(--bs-btn-disabled-color)
+}
+
+.btn.btn-primary.dropdown-toggle {
+    background: var(--bs-body-bg);
+    color: #117A65;
+    font-size: 16px
+}
+
+.badge.bg-success {
+    margin-right: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
